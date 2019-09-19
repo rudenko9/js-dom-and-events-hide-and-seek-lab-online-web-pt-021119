@@ -7,3 +7,11 @@ const nestedTarget = function() {
 }
 
 
+const deepestChild = function() {
+  let node = document.querySelector('#grand-node');
+  while (node.querySelector('div')) {
+    node = node.querySelector('div')
+  }
+  return node;
+}
+
