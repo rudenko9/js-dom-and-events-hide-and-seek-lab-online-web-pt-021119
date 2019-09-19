@@ -1,1 +1,1 @@
-const getFirstSelector = document.querySelector('div')[0];
+const getFirstSelector 
