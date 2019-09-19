@@ -1,1 +1,3 @@
-const getFirstSelector 
+const getFirstSelector = function () {
+  return 
+}
